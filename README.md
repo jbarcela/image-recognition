@@ -3,6 +3,7 @@
 ### Rodando o projeto:
 - Criar a váriavel de ambiente `GOOGLE_APPLICATION_CREDENTIALS` apontando para o arquivo de credenciais `google-vision.json` dentro da pasta `credentials/`
 - `tsc -w` na pasta `server/`
+- `npm i` na pasta `server/`
 - `node server.js` na pasta `dist/`
 
 

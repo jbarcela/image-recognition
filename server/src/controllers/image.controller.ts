@@ -22,14 +22,14 @@ class ImageController{
         content.image = req.file.buffer;
 
         //extraindo texto da imagem utilizando o Google
-        await Google.process(content);
+        await Google.processAutoMl(content);
 
         //extraindo texto da imagem utilizando o Watson
         
         //process response  
         
         //response
-        res.json(content);
+        res.json(content.googleAutoMlContent);
     }
 }
 
